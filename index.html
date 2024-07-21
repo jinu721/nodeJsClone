@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node Clone</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div id="bg-gradient" >
+
+        <header id="nav" >
+            <div id="section-header">
+               <img id="img-logo" src="images/node.png" alt="">
+               <p id="txt-learn" class="txt-header" >Learn</p>
+               <p id="txt-about" class="txt-header" >About</p>
+               <p id="txt-download" class="txt-header" >Download</p>
+               <p id="txt-blog" class="txt-header" >Blog</p>
+               <p id="txt-docs" >Docs</p>
+               <img id="icon-arrow1" class="icons" src="icons/arrow.svg" alt="">
+               <p id="txt-certification" >Certification</p>
+               <img id="icon-arrow2" class="icons"  src="icons/arrow.svg" alt="">
+               <div id="div-search" >
+                  <img src="icons/search.svg" alt="">
+                  <input id="inp" placeholder="Start Typing...            Ctrl k" type="text" name="" id="">
+               </div>
+               <img class="icons"  src="icons/theme.svg" alt="">
+               <img class="icons"  src="icons/language.svg" alt="">
+               <img  class="icon-github icons" src="images/github.svg" alt="">
+            </div>
+        </header>
+        <main id="section-body" >
+            <div id="left-side" >
+                <h1 id="txt-runJava" >Run JavaScript <br> Everywhare</h1>
+                <p id="txt-NodeJs" >Node.js® is a free, open-source, cross-platform <br> JavaScript runtime environment that lets <br> developers create servers, web apps, command <br>line tools and scripts.</p>
+                <div id="div-download" >
+                    <h3>Download Node.js(LTC)</h3>
+                    <img src="images/download.svg" alt="">
+                </div>
+                <p id="txt-packageManagers1" >Downloads Node.js <span>v20.15.11</span> with long-term support.</p>
+                <p id="txt-packageManagers2" >Node.js can also be installed via <a href="">package managers. </a></p>
+                <p id="txt-whatsNew" >Want new features sooner? Get <a href="">Node.js <span id="txt-version">v22.5.11</span> </a> instead.</p>
+            </div>
+            <div id="right-side" >
+                <div id="div-codeBox" >
+                   <div id="div-codeHeader" >
+                        <div id="div-heading1" >
+                            <h1  >Create&NonBreakingSpace;an&NonBreakingSpace;HTTP&NonBreakingSpace;Server</h1>
+                        </div>
+                        <h1 class="txt-codeHeader" >Write&NonBreakingSpace;Tests</h1>
+                        <h1 class="txt-codeHeader" >Read&NonBreakingSpace;and&NonBreakingSpace;Hash&NonBreakingSpace;a&NonBreakingSpace;File</h1>
+                        <h1 class="txt-codeHeader" >Streams&NonBreakingSpace;Pipeline</h1>
+                        <h1 class="txt-codeHeader" >Work&NonBreakingSpace;with&NonBreakingSpace;Threads</h1>    
+                   </div>
+                   <div id="div-codeBody" >
+                        <!-- line1 -->
+                        <p id="line1" > <span class="txt-number" >1</span> <span class="txt-command" > // server.mjs </span> <br></p>
+                        <!-- line2 -->
+                         <p id="line2" ><span class="txt-number" >2</span> <span class="txt-lightSurf" >import</span> <span class="txt-outBrackets" >{</span> <span class="txt-surf" >createServer</span> <span class="txt-outBrackets" >}</span> <span class="txt-lightSurf" >from</span> <span lang="txt-outBrackets" >'</span><span class="txt-green" >node:http</span><span class="txt-outBrackets" >'</span> <span class="txt-lightSurf" >;</span> <br></p>
+                        <!-- line3 -->
+                         <p id="line3" ><span class="txt-number" >3</span> <br> <span class="txt-number" >4</span> <span class="txt-lightSurf" >const</span> <span class="txt-greyWhite" >server</span> <span class="txt-lightSurf" >=</span> <span class="txt-surf" >createServer</span><span class="txt-outBrackets" >((</span><span class="txt-greyWhite" >req, res)</span> <span class="txt-lightSurf" >=></span> <span class="txt-outBrackets" >{</span> </p>
+                        <!-- line4 -->
+                         <p id="line4" ><span id="txt-no5" class="txt-number" >5</span><span class="txt-greyWhite" >  res.</span><span class="txt-surf" >writeHead</span><span class="txt-outBrackets" >(</span><span class="txt-violet" >200</span><span>,</span> <span class="txt-greyWhite" >{</span> <span>'</span><span class="txt-green" >Content-Type</span><span>':</span> <span>'</span><span class="txt-green" >text/plain</span><span>'</span> <span class="txt-greyWhite" >})</span><span class="txt-lightSurf" >;</span> </p>  
+                         <!-- line5  -->
+                          <p id="line5" > <span id="txt-no6" class="txt-number" >6</span> <span class="txt-greyWhite" >res.</span><span class="txt-surf" >end</span><span class="txt-outBrackets" >('</span><span class="txt-green" >Hello World!</span><span class="txt-yellow" >\n</span><span class="txt-outBrackets" >')</span><span class="txt-lightSurf" >;</span> </p>
+                          <!-- line6 -->
+                          <p id="line6" > <span class="txt-number" >7</span> <span>})</span><span class="txt-lightSurf" >;</span> </p>
+                          <!-- line7 -->
+                          <p id="line7" ><span class="txt-number" >8</span></p>
+                          <!-- line8 -->
+                          <p id="line8" > <span class="txt-number" >9</span> <span class="txt-command" >// starts a simple http server locally on port 3000</span> <br> </p>
+                         <!-- line10 -->
+                          <p id="line9" > <span class="txt-number" >10</span> <span class="txt-greyWhite" >server.</span><span class="txt-surf" >listen</span><span class="txt-greyWhite" >(</span><span class="txt-violet" >3000</span><span>,</span><span class="txt-greyWhite" >'</span> <span class="txt-green" >127.0.0.1</span><span class="txt-greyWhite" >'</span><span>,</span> <span>()</span> <span class="txt-lightSurf" >=></span> <span class="txt-greyWhite" >{</span>   </p>
+                        <!-- line11 -->
+                         <p  id="line10"> <span id="txt-no11" class="txt-number" >11</span> <span class="txt-greyWhite" >console.</span><span class="txt-surf" >log</span><span>('</span><span class="txt-green" >Listening on 127.0.0.1:3000</span><span>')</span><span class="txt-lightSurf" >;</span> </p>
+                         <!-- line12 -->
+                         <p id="line11" > <span class="txt-number" >12</span> <span class="txt-greyWhite" >}</span><span>)</span><span class="txt-lightSurf" >;</span> </p>
+                         <!-- line13 -->
+                          <p id="line12" ><span class="txt-number" >13</span></p>
+                         <!-- line14 -->
+                          <p id="line13" > <span class="txt-number" >14</span> <span class="txt-command" >// run with `node server.mjs`</span></p>
+                   </div>
+                   <div id="div-codeBottom" >
+                       <p id="txt-javaScript" >JavaScript</p>
+                       <div id="div-copy" >
+                          <img src="icons/copy.svg" alt="">
+                          <p id="txt-copy" >Copy to clipboard</p>
+                       </div>
+                   </div>
+                </div>
+                <p id="txt-learnMore" >Learn more what Node.js is able to offer with our <span>Learning materials.</span></p>
+            </div>
+        </main>
+        <footer>
+            <div id="section-bottom" >
+                <div class="div-hover" ><p id="txt-TradeMark"  class="txt-footer" >Trademark policy</p></div>
+                 <p id="txt-privacyPolicy" class="txt-footer" >Privacy Policy</p>
+                 <p id="txt-codeOfConduct"  class="txt-footer" >Code of Conduct</p>
+                 <p id="txt-privacySecurity"  class="txt-footer" >Security policy</p>
+                 <p id="txt-foundation"  class="txt-footer" >© OpenJS Foundation</p>
+                 <img id="icon-github" class="icon-footer" src="images/github.svg" alt="">
+                 <img class="icon-footer" src="images/mastodon.svg" alt="">
+                 <img id="icon-x" class="icon-footer" src="images/x.svg" alt="">
+                 <img class="icon-footer" src="images/stack.svg" alt="">
+                 <img class="icon-footer" src="images/in.svg" alt="">
+            </div>
+        </footer>
+    </div>
+    <div id="div-mobile" >
+        <h1>Oops!</h1>
+        <p>We regret to inform you that this site is best viewed on a laptop or desktop computer. The responsive design is currently under development, and as a result, the mobile view may not display correctly.</p>
+    </div>
+</body>
+</html>
