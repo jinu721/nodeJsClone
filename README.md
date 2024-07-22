@@ -5,7 +5,7 @@ Here's a similar description for your Node.js official site clone project:
 ## Node.js Official Site Clone
 
 ## Live Demo
-Mint's Sign up page](https://jinu721.github.io/nodeJsClone/
+[NodeJs Clone](https://jinu721.github.io/nodeJsClone/)
 
 ### Overview
 
