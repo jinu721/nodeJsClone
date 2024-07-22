@@ -17,19 +17,15 @@ This project is a clone of the Node.js official website, focusing on replicating
 
 The home page design looks great on a laptop but is not yet responsive. It may not display correctly on tablets or mobile phones.
 
-### Future Improvements
+### Features coming next update
 
 - **Responsive Design:** Make the home page look good on all devices, including tablets and mobile phones, by using media queries and flexible grid layouts.
-- **Additional Pages:** Add other pages like documentation, community resources, and more to expand the website.
 
 ### How to Run
 
 1. Clone the repository to your local machine.
 2. Open the `index.html` file in a web browser to view the home page.
 
-### Contributions
-
-Contributions to improve responsiveness and add new pages are welcome! Feel free to fork the repository and submit pull requests.
 
 ### Author
 
@@ -37,4 +33,4 @@ This project was created by jinu. You can reach out to me on jinu8683@gmail.com 
 
 ---
 
-Feel free to add your personal details and any additional information specific to your project.
+This project is completely open-source and can be used for educational purposes. However, it should not be used for business purposes, as the design of the Node.js official site is copyrighted. Using it for business could result in copyright infringement.
