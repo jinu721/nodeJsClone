@@ -8,10 +8,6 @@
 
 This project is a clone of the Node.js official website, focusing on replicating its design and layout. It aims to provide a similar user experience to the original Node.js site.
 
-### Features
-
-- **Home Page:** Mimics the structure and content of the Node.js official site's home page, including sections like the latest news, downloads, and resources.
-
 ### Technologies Used
 
 - **HTML5:** For creating the structure of the web page.
