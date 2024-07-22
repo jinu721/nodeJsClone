@@ -1,6 +1,3 @@
-Here's a similar description for your Node.js official site clone project:
-
----
 
 ## Node.js Official Site Clone
 
