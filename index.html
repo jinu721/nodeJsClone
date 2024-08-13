@@ -9,27 +9,52 @@
 <body>
     <div id="bg-gradient" >
 
+        <!-- ### header section start -->
         <header id="nav" >
-            <div id="section-header">
+            <nav id="section-header">
                <img id="img-logo" src="images/node.png" alt="">
-               <p id="txt-learn" class="txt-header" >Learn</p>
-               <p id="txt-about" class="txt-header" >About</p>
-               <p id="txt-download" class="txt-header" >Download</p>
-               <p id="txt-blog" class="txt-header" >Blog</p>
-               <p id="txt-docs" >Docs</p>
-               <img id="icon-arrow1" class="icons" src="icons/arrow.svg" alt="">
-               <p id="txt-certification" >Certification</p>
-               <img id="icon-arrow2" class="icons"  src="icons/arrow.svg" alt="">
+               <button id="div-learn" class="div-item" >
+                   Learn
+               </button>
+               <button id="div-about" class="div-item" >
+                   About
+               </button>
+               <button id="div-down" class="div-item" >
+                   Download
+               </button>
+               <button id="div-blog" class="div-item" >
+                   Blog
+               </button>
+               <button id="div-docs" class="div-item" >
+             Docs
+               </button>
+               <button id="div-certification" class="div-item" >
+                <p id="txt-certification" >Certification</p>
+                <img id="icon-arrow2" class="icons"  src="icons/arrow.svg" alt="">
+               </button>
                <div id="div-search" >
                   <img src="icons/search.svg" alt="">
-                  <input id="inp" placeholder="Start Typing...            Ctrl k" type="text" name="" id="">
+                  <input id="inp" placeholder="Start Typing...   Ctrl k" type="text" name="" id="">
                </div>
-               <img class="icons"  src="icons/theme.svg" alt="">
-               <img class="icons"  src="icons/language.svg" alt="">
-               <img  class="icon-github icons" src="images/github.svg" alt="">
-            </div>
+               <div id="icon-theme" class="div-item" >  
+                   <img class="icons"  src="icons/theme.svg" alt="">
+               </div>
+               <div id="icon-lang" class="div-item" >
+                   <img class="icons"  src="icons/language.svg" alt="">
+               </div>
+               <div id="icon-githubTop" class="div-item" >
+                   <img  class="icon-github icons" src="images/github.svg" alt="">
+               </div>
+            </nav>
         </header>
+        <!-- ### header section end -->
+
+
+        <!-- ### body section start -->
         <main id="section-body" >
+        <!-- body section start end -->    
+         
+        <!--body left section -->
             <div id="left-side" >
                 <h1 id="txt-runJava" >Run JavaScript <br> Everywhare</h1>
                 <p id="txt-NodeJs" >Node.js® is a free, open-source, cross-platform <br> JavaScript runtime environment that lets <br> developers create servers, web apps, command <br>line tools and scripts.</p>
@@ -41,6 +66,7 @@
                 <p id="txt-packageManagers2" >Node.js can also be installed via <a href="">package managers. </a></p>
                 <p id="txt-whatsNew" >Want new features sooner? Get <a href="">Node.js <span id="txt-version">v22.5.11</span> </a> instead.</p>
             </div>
+        <!-- body right section -->
             <div id="right-side" >
                 <div id="div-codeBox" >
                    <div id="div-codeHeader" >
@@ -91,24 +117,42 @@
                 <p id="txt-learnMore" >Learn more what Node.js is able to offer with our <span>Learning materials.</span></p>
             </div>
         </main>
+        <!-- footer section start -->
         <footer>
             <div id="section-bottom" >
-                <div class="div-hover" ><p id="txt-TradeMark"  class="txt-footer" >Trademark policy</p></div>
-                 <p id="txt-privacyPolicy" class="txt-footer" >Privacy Policy</p>
-                 <p id="txt-codeOfConduct"  class="txt-footer" >Code of Conduct</p>
-                 <p id="txt-privacySecurity"  class="txt-footer" >Security policy</p>
-                 <p id="txt-foundation"  class="txt-footer" >© OpenJS Foundation</p>
-                 <img id="icon-github" class="icon-footer" src="images/github.svg" alt="">
-                 <img class="icon-footer" src="images/mastodon.svg" alt="">
-                 <img id="icon-x" class="icon-footer" src="images/x.svg" alt="">
-                 <img class="icon-footer" src="images/stack.svg" alt="">
-                 <img class="icon-footer" src="images/in.svg" alt="">
+                <button id="div-trademark" class="btn-item" >
+                    Trademark&nbsp;policy
+                </button>
+                <button id="div-privacy" class="btn-item" >
+                    Privacy&nbsp;Policy
+                </button>
+                <button id="div-conduct" class="btn-item" >
+                    Code&nbsp;of&nbsp;Conduct
+                </button>
+                <button id="div-security" class="btn-item" >
+                    Security&nbsp;policy
+                </button>
+                <button id="div-foundation" class="btn-item" >
+                    ©&nbsp;OpenJS&nbsp;Foundation
+                </button>
+                <div id="icon-githubBottom" class="div-item" >
+                    <img id="icon-github" class="icon-footer" src="images/github.svg" alt="">
+                </div>
+                <div id="icon-m" class="div-item" >
+                    <img class="icon-footer" src="images/mastodon.svg" alt="">
+                </div>
+                <div id="icon-twitterX" class="div-item" >
+                    <img id="icon-x" class="icon-footer" src="images/x.svg" alt="">
+                </div>
+                <div id="icon-len" class="div-item" >
+                    <img class="icon-footer" src="images/stack.svg" alt="">
+                </div>
+                <div id="icon-in" class="div-item" >
+                    <img class="icon-footer" src="images/in.svg" alt="">
+                </div>
             </div>
         </footer>
-    </div>
-    <div id="div-mobile" >
-        <h1>Oops!</h1>
-        <p>We regret to inform you that this site is best viewed on a laptop or desktop computer. The responsive design is currently under development, and as a result, the mobile view may not display correctly.</p>
+        <!-- footer section end -->
     </div>
 </body>
 </html>
